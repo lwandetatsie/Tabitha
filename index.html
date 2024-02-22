@@ -21,6 +21,13 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
    
     <!-- Load React component-->
-    <script src="./index.js"></script>
+    <script >
+      const rootElement = document.getElementById("navbar");
+const navbar = createRoot(rootElement);
+
+navbar.render(
+    <h1>hello</h1>
+);
+    </script>
   </body>
 </html>

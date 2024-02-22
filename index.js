@@ -7,7 +7,5 @@ const rootElement = document.getElementById("navbar");
 const navbar = createRoot(rootElement);
 
 navbar.render(
-    <StrictMode>
-    <Navbar/>
-    </StrictMode>
+    <h1>hello</h1>
 );
