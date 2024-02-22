@@ -10,4 +10,4 @@ navbar.render(
     <StrictMode>
     <Navbar/>
     </StrictMode>
-  );
+);
